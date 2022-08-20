@@ -1,13 +1,16 @@
 [URL Rewrite]
+# > 雪球（倒计时还在）
+^https?:\/\/xqimg\.imedao\.com\/[a-z0-9]{24}\.jpg$ - reject-200
+
 # >> 麦当劳
-^https?:\/\/img\.mcd\.cn\/cms\/images\/.+?\.jpg url reject-200
+^https?:\/\/img\.mcd\.cn\/cms\/images\/.+?\.jpg - reject-200
 
 # >> 美团
-^https?:\/\/img\.meituan\.net\/bizad\/ url reject-200
-^http?:\/\/s3plus\.meituan\.net\/v1\/mss_c81cf9b5873c4405901447b68a6a612b\/brandcpt-vedio\/d2699bf1-1ed4-11ed-ad7b-0a580a366222?time=3 url reject
+^https?:\/\/img\.meituan\.net\/bizad\/ - reject-200
+^http?:\/\/s3plus\.meituan\.net\/v1\/mss_c81cf9b5873c4405901447b68a6a612b\/brandcpt-vedio\/ - reject
 
 # >> 唱吧
-^https?:\/\/aliimg\.changba\.com\/cache\/photo\/startupimg\/ url reject-200
+^https?:\/\/aliimg\.changba\.com\/cache\/photo\/startupimg\/ - reject-200
 
 # >> 天天基金
 ^https?:\/\/j5\.dfcfw\.com\/WG\/conf\/.+?\.png url reject-200
