@@ -4,6 +4,7 @@
 
 # >> 美团
 ^https?:\/\/img\.meituan\.net\/bizad\/ url reject-200
+^http?:\/\/s3plus\.meituan\.net\.v1\.mss_c81cf9b5873c4405901447b68a6a612b\.brandcpt-vedio\/ url reject
 
 # >> 唱吧
 ^https?:\/\/aliimg\.changba\.com\/cache\/photo\/startupimg\/ url reject-200
